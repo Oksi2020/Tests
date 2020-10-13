@@ -1,0 +1,29 @@
+{
+  "name": "webformyself-webpack",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --watch",
+    "dev": "npm run webpack -- --mode development --watch",
+    "build": "npm run webpack -- --mode production"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Oksi_2020",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "babel-core": "^6.26.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.5.2"
+  }
+}

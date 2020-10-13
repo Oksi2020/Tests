@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #e9e9e9!important;
+}
+.block {
+    background-color: white;
+    padding: 40px 70px;
+    font-weight: bold;
+}
+.block
+.hat {
+    position: relative;
+    border-bottom: 1px dashed black;
+    padding-bottom:30px;
+    margin-bottom:20px;
+}
+h1 {
+    display: inline;
+}
+
+.create-test {
+    position: absolute;
+    right: 0px;
+}
+.row>div {
+    padding: 10px;
+    font-weight: normal;
+}
+.quest {
+    font-weight: bold!important;
+}
+.quest, .edit {
+    color: #6495ED;
+    text-decoration: underline;
+}
+.questContainer {
+    display: flex;
+    overflow: auto;
+}
+.delete {
+    color: red;
+    text-decoration: underline;
+}
+.test-name,
+.quest-name,
+.quest-answer {
+    width: 100%;
+    padding: 0 10px;
+    background-color: #CCCCFF;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.add-question {
+    width: 100%;
+}
+.add-question,
+.create-test {
+    background-color: #6495ED;
+    border-radius: 10px;
+    color: white;
+    height: 33px;
+}
+.question {
+    border-radius: 50px;
+    background-color: silver;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold!important;
+}
+.add-optiont {
+    background-color: #CCCCFF;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+}
+.add-save-question {
+    background-color: #6495ED;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    width: 200px;
+
+}
+.save-test {
+    width: 100%;
+    background-color: #FFDC33;
+}
+
+.done {
+    background-color: #6495ED!important;
+    color: white;
+}
+.red {
+    background-color: #FF2B2B!important;
+}
+.green {
+   background-color:#138808!important;
+}
+
+.active {
+    background-color: #34C924!important;
+}
+.question-name {
+    padding: 10px;
+    font-size: 1.2em;
+}
+.answers {
+    display: flex;
+    justify-content: space-around;
+}
+.answers>div {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: #e9e9e9;
+    margin-top: 10px;
+}
